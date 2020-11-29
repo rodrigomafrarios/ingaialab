@@ -26,7 +26,6 @@ const factoryCalcPropertyPriceRepository = (): CalcPropertyPriceRepository => {
 
 describe('DbCalcPropertyPrice', () => {
 	test('Should call CalcPropertyPriceRepository with correct values', async () => {
-		
 		const { sut, calcPropertyPriceRepositoryStub } = factory()
 		const calcSpy = jest.spyOn(calcPropertyPriceRepositoryStub, 'calc')
 		const property = {
@@ -34,8 +33,6 @@ describe('DbCalcPropertyPrice', () => {
 		}
 
 		await sut.calc(property)
-		expect(calcSpy).toHaveBeenCalledWith({squareMeters: 500})
-
+		expect(calcSpy).toHaveBeenCalledWith({ squareMeters: 500 })
 	})
-
 })

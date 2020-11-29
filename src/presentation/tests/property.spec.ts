@@ -73,7 +73,6 @@ describe('PropertyController', () => {
 		jest.spyOn(squareMeterValidatorStub, 'isRangeValid').mockImplementationOnce(() => {
 			throw new Error()
 		})
-		
 		const httpRequest = {
             body: {
 				squareMeters: 50000
