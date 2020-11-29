@@ -23,7 +23,6 @@ export class PropertyController implements Controller {
 			if (!isRangeValid) {
 				return badRequest(new InvalidParamError('squareMeters'))
 			}
-
 			const calc = await this.calcPropertyPrice.calc({
 				squareMeters: httpRequest.body.squareMeters
 			})
