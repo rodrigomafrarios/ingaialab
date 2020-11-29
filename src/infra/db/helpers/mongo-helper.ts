@@ -12,6 +12,6 @@ export const MongoHelper = {
 		await this.client.close()
 	},
 	getCollection (name: string): Collection {
-		return this.client.db('jest').collection(name)
+		return this.client.db().collection(name)
 	}
 }
