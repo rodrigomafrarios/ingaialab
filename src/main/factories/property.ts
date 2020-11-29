@@ -7,5 +7,6 @@ export const factoryPropertyController = (): PropertyController => {
 	const squareMeterValidator = new SquareMeterValidatorAdapter()
 	const propertyDbRepository = new PropertyDbRepository()
 	const dbCalcPropertyPrice = new DbCalcPropertyPrice(propertyDbRepository)
-	return new PropertyController(squareMeterValidator,dbCalcPropertyPrice)
+	const propertyController = new PropertyController(squareMeterValidator,dbCalcPropertyPrice)
+	return propertyController
 }
