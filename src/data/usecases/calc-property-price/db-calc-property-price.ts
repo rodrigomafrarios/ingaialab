@@ -9,6 +9,6 @@ export class DbCalcPropertyPrice implements CalcPropertyPrice {
 
 	async calc (property: PropertyModel): Promise<number> {
 		const result = await this.calcPropertyPriceRepository.calc(property)
-		return new Promise(resolve => resolve(result))
+		return result
 	}
 }

@@ -45,4 +45,13 @@ describe('DbCalcPropertyPrice', () => {
 		const promise = sut.calc(property)
 		await expect(promise).rejects.toThrow()
 	})
+	test('Should return an cost of property on sucess', async () => {
+		const { sut } = factory()
+		const property = {
+			squareMeters: 500
+		}
+
+		const calc = await sut.calc(property)
+		expect(calc).toEqual(property.squareMeters * 500)
+	})
 })
