@@ -36,3 +36,15 @@ describe('DbCalcPropertyPrice', () => {
 		expect(calcSpy).toHaveBeenCalledWith({ squareMeters: 500 })
 	})
 })
+describe('DbCalcPropertyPrice', () => {
+	test('Should throw CalcPropertyPriceRepository throws', async () => {
+		const { sut, calcPropertyPriceRepositoryStub } = factory()
+		jest.spyOn(calcPropertyPriceRepositoryStub, 'calc').mockResolvedValueOnce(new Promise((resolve, reject) => reject(new Error())))
+		const property = {
+			squareMeters: 500
+		}
+
+		const promise = sut.calc(property)
+		await expect(promise).rejects.toThrow()
+	})
+})
