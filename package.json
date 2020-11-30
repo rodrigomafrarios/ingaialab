@@ -9,7 +9,7 @@
     "test:staged": "npm test --findRelatedTests",
     "test:verbose": "jest --passWithNoTests --runInBand",
     "build": "sucrase ./src -d ./dist --transforms typescript,imports && tsc -p tsconfig-build.json",
-    "start": "npm run build && node dist/server.js"
+    "start": "node ./dist/server.js"
   },
   "repository": {
     "type": "git",
