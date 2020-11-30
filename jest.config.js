@@ -21,6 +21,14 @@ module.exports = {
 	transform: {
 	  '.+\\.ts$': 'ts-jest'
 	},
+	moduleNameMapper:{
+		"@Presentation(.*)$": "<rootDir>/src/presentation$1",
+		"@Data(.*)$": "<rootDir>/src/data$1",
+		"@Domain(.*)$": "<rootDir>/src/domain$1",
+		"@Infra(.*)$": "<rootDir>/src/infra$1",
+		"@Main(.*)$": "<rootDir>/src/main$1",
+		"@Utils(.*)$": "<rootDir>/src/utils$1",
+	}
 	
 	// preset: '@shelf/jest-mongodb'
   

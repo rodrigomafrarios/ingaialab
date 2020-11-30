@@ -1,4 +1,4 @@
-import { SquareMeterValidator } from '../presentation/protocols/square-meter-validator'
+import { SquareMeterValidator } from '@Presentation/protocols/square-meter-validator'
 
 export class SquareMeterValidatorAdapter implements SquareMeterValidator {
 	private readonly range = { min: 10, max: 10000 }

@@ -1,5 +1,5 @@
 import request from 'supertest'
-import app from '../main/config/app'
+import app from '../app'
 
 describe('Property Routes', () => {
 	test('Should return a calc of property on success',async () => {

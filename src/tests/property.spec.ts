@@ -1,8 +1,8 @@
-import { PropertyController } from '../presentation/controllers/property'
-import { MissingParamError, ServerError } from '../presentation/errors'
-import { SquareMeterValidator } from '../presentation/protocols'
-import { PropertyModel } from '../domain/models/property'
-import { CalcPropertyPrice } from '../domain/usecases/calc-property-price'
+import { PropertyController } from '@Presentation/controllers/property'
+import { MissingParamError, ServerError } from '@Presentation/errors'
+import { SquareMeterValidator } from '@Presentation/protocols'
+import { PropertyModel } from '@Domain/models/property'
+import { CalcPropertyPrice } from '@Domain/usecases/calc-property-price'
 
 interface StubType {
 	controllerStub: PropertyController

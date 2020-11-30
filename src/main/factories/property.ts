@@ -1,7 +1,7 @@
-import { PropertyController } from '../../presentation/controllers/property'
-import { SquareMeterValidatorAdapter } from '../../utils/square-meter-validator'
-import { DbCalcPropertyPrice } from '../../data/usecases/calc-property-price/db-calc-property-price'
-import { PropertyDbRepository } from '../../infra/db/property-repository/property'
+import { PropertyController } from '@Presentation/controllers/property'
+import { SquareMeterValidatorAdapter } from '@Utils/square-meter-validator'
+import { DbCalcPropertyPrice } from '@Data/usecases/calc-property-price/db-calc-property-price'
+import { PropertyDbRepository } from '@Infra/db/property-repository/property'
 
 export const factoryPropertyController = (): PropertyController => {
 	const squareMeterValidator = new SquareMeterValidatorAdapter()

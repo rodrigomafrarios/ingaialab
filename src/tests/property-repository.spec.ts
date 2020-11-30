@@ -1,5 +1,5 @@
-import { MongoHelper } from '../infra/db/helpers/mongo-helper'
-import { PropertyDbRepository } from '../infra/db/property-repository/property'
+import { MongoHelper } from '@Infra/db/helpers/mongo-helper'
+import { PropertyDbRepository } from '@Infra/db/property-repository/property'
 
 // describe('Property Mongo Repository', () => {
 // 	beforeAll(async () => {

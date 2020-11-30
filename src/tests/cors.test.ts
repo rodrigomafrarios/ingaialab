@@ -1,5 +1,5 @@
 import request from 'supertest'
-import app from '../main/config/app'
+import app from '../app'
 
 describe('CORS Middleware', () => {
 	test('Should enable CORS', async () => {

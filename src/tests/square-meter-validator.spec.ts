@@ -1,5 +1,5 @@
 
-import { SquareMeterValidatorAdapter } from '../utils/square-meter-validator'
+import { SquareMeterValidatorAdapter } from '@Utils/square-meter-validator'
 
 const factory = (): SquareMeterValidatorAdapter => {
 	return new SquareMeterValidatorAdapter()

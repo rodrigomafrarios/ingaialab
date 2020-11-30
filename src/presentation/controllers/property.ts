@@ -1,7 +1,7 @@
-import { HttpRequest, HttpResponse, Controller, SquareMeterValidator } from '../protocols'
-import { MissingParamError, InvalidParamError } from '../errors'
-import { badRequest, serverError, ok } from '../helpers/http-helper'
-import { CalcPropertyPrice } from '../../domain/usecases/calc-property-price'
+import { HttpRequest, HttpResponse, Controller, SquareMeterValidator } from '@Presentation/protocols'
+import { MissingParamError, InvalidParamError } from '@Presentation/errors'
+import { badRequest, serverError, ok } from '@Presentation/helpers/http-helper'
+import { CalcPropertyPrice } from '@Domain/usecases/calc-property-price'
 
 export class PropertyController implements Controller {
 	private readonly squareMeterValidator: SquareMeterValidator

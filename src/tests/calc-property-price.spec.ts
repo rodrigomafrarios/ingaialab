@@ -1,4 +1,4 @@
-import { PropertyModel, DbCalcPropertyPrice, CalcPropertyPriceRepository } from '../data/usecases/calc-property-price/db-calc-property-price-protocols'
+import { PropertyModel, DbCalcPropertyPrice, CalcPropertyPriceRepository } from '@Data/usecases/calc-property-price/db-calc-property-price-protocols'
 
 interface SutTypes {
 	sut: DbCalcPropertyPrice
