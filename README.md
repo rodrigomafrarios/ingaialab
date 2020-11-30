@@ -53,11 +53,11 @@ O que gostaríamos de ver nos microserviços
 
 #
 ## O que falta
-* Readme
-* Swagger
-* Registrar imagem docker no docker hub
+* Readme [OK]
+* Swagger [OK]
+* Registrar imagem docker no docker hub [OK]
 * API 2 chamar API 1
-* Verificar se na API 2 está validando os valores de entrada
+* Verificar se na API 2 está validando os valores de entrada [OK]
 
 #
 ## Camadas - Características (https://ibb.co/XkGhN8Z)
