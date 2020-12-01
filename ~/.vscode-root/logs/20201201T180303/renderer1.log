@@ -1,12 +1,29 @@
-[2020-12-01 18:03:30.538] [renderer1] [error] ENOENT: no such file or directory, unlink '/root/.local/share/vsliveshare/cascade.json': Error: ENOENT: no such file or directory, unlink '/root/.local/share/vsliveshare/cascade.json'
-[2020-12-01 18:09:01.068] [renderer1] [error] Agent terminated with exit code: 0 and signal null: A fatal error occurred. The required library libhostfxr.so could not be found.
-If this is a self-contained application, that library should exist in [/root/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.3206/dotnet_modules/].
-If this is a framework-dependent application, install the runtime in the global location [/usr/share/dotnet] or use the DOTNET_ROOT environment variable to specify the runtime location or register the runtime location in [/etc/dotnet/install_location].The .NET Core runtime can be found at:- https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=ubuntu.20.04-x64: Error: Agent terminated with exit code: 0 and signal null: A fatal error occurred. The required library libhostfxr.so could not be found.
-If this is a self-contained application, that library should exist in [/root/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.3206/dotnet_modules/].
-If this is a framework-dependent application, install the runtime in the global location [/usr/share/dotnet] or use the DOTNET_ROOT environment variable to specify the runtime location or register the runtime location in [/etc/dotnet/install_location].The .NET Core runtime can be found at:- https://aka.ms/dotnet-core-applaunch?missing_runtime=true&arch=x64&rid=ubuntu.20.04-x64
-	at ChildProcess.<anonymous> (/root/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.3206/out/prod/extension-prod.js:151898:32)
-	at ChildProcess.emit (events.js:228:7)
-	at maybeClose (internal/child_process.js:1021:16)
-	at Socket.<anonymous> (internal/child_process.js:430:11)
-	at Socket.emit (events.js:223:5)
-	at Pipe.<anonymous> (net.js:664:12)
+[2020-12-01 18:30:15.017] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/rodrigo/ingaialab/~/.vscode-root/User'
+[2020-12-01 18:30:15.017] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/rodrigo/ingaialab/~/.vscode-root/User'
+[2020-12-01 18:30:15.017] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/rodrigo/ingaialab/~/.vscode-root/logs/20201201T180303'
+[2020-12-01 18:30:15.017] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/rodrigo/ingaialab/~/.vscode-root/logs/20201201T180303'
+[2020-12-01 18:30:15.017] [renderer1] [error] connect ENOENT /home/rodrigo/ingaialab/~/.vscode-root/1.50.1-shared.sock: Error: connect ENOENT /home/rodrigo/ingaialab/~/.vscode-root/1.50.1-shared.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+[2020-12-01 18:30:15.048] [renderer1] [error] connect ENOENT /home/rodrigo/ingaialab/~/.vscode-root/1.50.1-shared.sock: Unknown (UserDataSyncError) syncResource:unknown operationId:unknown: connect ENOENT /home/rodrigo/ingaialab/~/.vscode-root/1.50.1-shared.sock
+    at Function.e.toUserDataSyncError (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2872:881)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6135:163
+[2020-12-01 18:30:15.049] [renderer1] [error] connect ENOENT /home/rodrigo/ingaialab/~/.vscode-root/1.50.1-shared.sock: Error: connect ENOENT /home/rodrigo/ingaialab/~/.vscode-root/1.50.1-shared.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+[2020-12-01 18:30:17.031] [renderer1] [error] connect ENOENT /home/rodrigo/ingaialab/~/.vscode-root/1.50.1-shared.sock: Error: connect ENOENT /home/rodrigo/ingaialab/~/.vscode-root/1.50.1-shared.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+[2020-12-01 18:30:17.222] [renderer1] [error] Error: connect ENOENT /home/rodrigo/ingaialab/~/.vscode-root/1.50.1-shared.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+[2020-12-01 18:30:21.814] [renderer1] [error] Error: connect ENOENT /home/rodrigo/ingaialab/~/.vscode-root/1.50.1-shared.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+[2020-12-01 18:30:21.818] [renderer1] [warning] Settings Sync: Accounts are not initialized
+[2020-12-01 18:30:25.440] [renderer1] [error] ENOENT: no such file or directory, unlink '/root/.local/share/vsliveshare/cascade.json': Error: ENOENT: no such file or directory, unlink '/root/.local/share/vsliveshare/cascade.json'
+[2020-12-01 18:30:29.707] [renderer1] [error] connect ENOENT /home/rodrigo/ingaialab/~/.vscode-root/1.50.1-shared.sock: Error: connect ENOENT /home/rodrigo/ingaialab/~/.vscode-root/1.50.1-shared.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+[2020-12-01 18:32:18.554] [renderer1] [error] connect ENOENT /home/rodrigo/ingaialab/~/.vscode-root/1.50.1-shared.sock: Error: connect ENOENT /home/rodrigo/ingaialab/~/.vscode-root/1.50.1-shared.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+[2020-12-01 18:32:53.099] [renderer1] [error] connect ENOENT /home/rodrigo/ingaialab/~/.vscode-root/1.50.1-shared.sock: Error: connect ENOENT /home/rodrigo/ingaialab/~/.vscode-root/1.50.1-shared.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+[2020-12-01 18:33:24.270] [renderer1] [error] connect ENOENT /home/rodrigo/ingaialab/~/.vscode-root/1.50.1-shared.sock: Error: connect ENOENT /home/rodrigo/ingaialab/~/.vscode-root/1.50.1-shared.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
+[2020-12-01 18:33:44.556] [renderer1] [error] connect ENOENT /home/rodrigo/ingaialab/~/.vscode-root/1.50.1-shared.sock: Error: connect ENOENT /home/rodrigo/ingaialab/~/.vscode-root/1.50.1-shared.sock
+    at PipeConnectWrap.afterConnect [as oncomplete] (net.js:1134:16)
