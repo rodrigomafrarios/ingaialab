@@ -1,5 +1,6 @@
 import { SquareMeterController } from '@Presentation/controllers/square-meter'
 import { GetSquareMeter } from '@Domain/usecases/get-square-meter'
+import { ServerError } from '@Presentation/errors/server-error'
 
 interface StubType {
 	controllerStub: SquareMeterController
@@ -26,9 +27,19 @@ const factoryController = (): StubType => {
 describe('SquareMeterController', () => {
     test('Should SquareMeterController.handle returns m²', async () => {
         const { factorySquareMeterStub, controllerStub } = factoryController()
-        spyOn(factorySquareMeterStub,'get')
+        jest.spyOn(factorySquareMeterStub,'get')
         const httpRequest = {}
         const httpResponse = await controllerStub.handle(httpRequest)
         expect(httpResponse.statusCode).toBe(200)
+    })
+    test('Should SquareMeterController.handle returns 500 if throws', async () => {
+        const { factorySquareMeterStub, controllerStub } = factoryController()
+        jest.spyOn(factorySquareMeterStub,'get').mockImplementationOnce(() => {
+            throw new Error()
+        })
+        const httpRequest = {}
+        const httpResponse = await controllerStub.handle(httpRequest)
+        expect(httpResponse.statusCode).toBe(500)
+        expect(httpResponse.body).toEqual(new ServerError())
     })
 })
