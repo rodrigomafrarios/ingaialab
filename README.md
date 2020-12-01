@@ -52,14 +52,6 @@ O que gostaríamos de ver nos microserviços
 	- Github + Heroku [OK]
 
 #
-## O que falta
-* Readme [OK]
-* Swagger [OK]
-* Registrar imagem docker no docker hub [OK]
-* API 2 chamar API 1
-* Verificar se na API 2 está validando os valores de entrada [OK]
-
-#
 ## Camadas - Características (https://ibb.co/XkGhN8Z)
 #
 Esse projeto foi baseado em clean code propondo desacoplamento entre os componentes e invertendo as dependências da aplicação.
@@ -92,4 +84,3 @@ Esse projeto foi baseado em clean code propondo desacoplamento entre os componen
 #
 ## Start
 * Para iniciar a aplicação em modo dev digite `npm run docker`
- 
