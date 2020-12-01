@@ -91,5 +91,5 @@ Esse projeto foi baseado em clean code propondo desacoplamento entre os componen
 
 #
 ## Start
-* Para iniciar a aplicação em modo dev digite `docker-compose up --build` (dá para ver melhor o que está aconteceendo) ou `docker-compose up -d`
+* Para iniciar a aplicação em modo dev digite `npm run docker`
  
