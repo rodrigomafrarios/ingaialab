@@ -1,6 +1,8 @@
 # ingaialab
 Imagem da arquitetura: https://ibb.co/XkGhN8Z
 
+Swagger: https://ingaialab.herokuapp.com/api-docs/
+
 inGaia - Back-end Developer
 
     Desenvolver 2 APIs
