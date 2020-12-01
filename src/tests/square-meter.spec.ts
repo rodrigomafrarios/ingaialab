@@ -1,14 +1,14 @@
 import { SquareMeterController } from '@Presentation/controllers/square-meter'
-import { GetSquareMeter } from '@Domain/usecases/get-square-meter'
+import { GetSquareMeters } from '@Domain/usecases/get-square-meters'
 import { ServerError } from '@Presentation/errors/server-error'
 
 interface StubType {
 	controllerStub: SquareMeterController
-	factorySquareMeterStub: GetSquareMeter
+	factorySquareMeterStub: GetSquareMeters
 }
 
 const factorySquareMeter = (): any => {
-    class GetSquareMeterStub implements GetSquareMeter {
+    class GetSquareMeterStub implements GetSquareMeters {
         private readonly squareMeters = 200
         async get (): Promise<number> {
             return new Promise(resolve => resolve(this.squareMeters))
