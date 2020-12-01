@@ -1,0 +1,96 @@
+2020-12-01T21:03:32.186Z INFO unittest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:03:32.189Z  DBG unittest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:03:32.190Z INFO pytest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:03:32.190Z  DBG pytest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:04:14.871Z INFO unittest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:04:14.871Z INFO pytest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:04:14.877Z INFO unittest at 'ingaialab': Unittest test discovery is disabled
+2020-12-01T21:04:14.877Z INFO pytest at 'ingaialab': Pytest test discovery is disabled
+2020-12-01T21:04:57.492Z INFO unittest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:04:57.494Z  DBG unittest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:04:57.494Z INFO pytest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:04:57.494Z  DBG pytest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:04:57.530Z INFO unittest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:04:57.531Z INFO pytest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:04:57.538Z  DBG unittest at 'ingaialab': Sending autorun event
+2020-12-01T21:04:57.538Z  DBG pytest at 'ingaialab': Sending autorun event
+2020-12-01T21:04:57.948Z INFO unittest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:04:57.948Z  DBG unittest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:04:57.948Z INFO pytest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:04:57.948Z  DBG pytest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:04:57.969Z INFO unittest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:04:57.969Z INFO pytest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:04:57.987Z  DBG unittest at 'ingaialab': Sending autorun event
+2020-12-01T21:04:57.987Z  DBG pytest at 'ingaialab': Sending autorun event
+2020-12-01T21:09:44.045Z INFO unittest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:09:44.048Z  DBG unittest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:09:44.048Z INFO pytest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:09:44.048Z  DBG pytest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:09:44.059Z INFO unittest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:09:44.059Z INFO pytest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:09:44.061Z  DBG unittest at 'ingaialab': Sending autorun event
+2020-12-01T21:09:44.061Z  DBG pytest at 'ingaialab': Sending autorun event
+2020-12-01T21:10:05.908Z INFO unittest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:10:05.908Z  DBG unittest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:10:05.908Z INFO pytest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:10:05.909Z  DBG pytest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:10:05.910Z INFO unittest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:10:05.910Z INFO pytest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:10:05.911Z  DBG unittest at 'ingaialab': Sending autorun event
+2020-12-01T21:10:05.911Z  DBG pytest at 'ingaialab': Sending autorun event
+2020-12-01T21:10:22.867Z INFO unittest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:10:22.868Z  DBG unittest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:10:22.868Z INFO pytest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:10:22.868Z  DBG pytest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:10:22.869Z INFO unittest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:10:22.870Z INFO pytest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:10:22.873Z  DBG unittest at 'ingaialab': Sending autorun event
+2020-12-01T21:10:22.873Z  DBG pytest at 'ingaialab': Sending autorun event
+2020-12-01T21:10:29.296Z INFO unittest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:10:29.296Z  DBG unittest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:10:29.296Z INFO pytest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:10:29.296Z  DBG pytest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:10:29.297Z INFO unittest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:10:29.297Z INFO pytest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:10:29.298Z  DBG unittest at 'ingaialab': Sending autorun event
+2020-12-01T21:10:29.298Z  DBG pytest at 'ingaialab': Sending autorun event
+2020-12-01T21:14:46.657Z INFO unittest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:14:46.658Z  DBG unittest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:14:46.658Z INFO pytest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:14:46.658Z  DBG pytest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:14:46.660Z INFO unittest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:14:46.660Z INFO pytest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:14:46.662Z  DBG unittest at 'ingaialab': Sending autorun event
+2020-12-01T21:14:46.662Z  DBG pytest at 'ingaialab': Sending autorun event
+2020-12-01T21:16:30.390Z INFO unittest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:16:30.391Z  DBG unittest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:16:30.391Z INFO pytest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:16:30.391Z  DBG pytest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:16:30.398Z INFO unittest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:16:30.398Z INFO pytest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:16:30.400Z  DBG unittest at 'ingaialab': Sending autorun event
+2020-12-01T21:16:30.400Z  DBG pytest at 'ingaialab': Sending autorun event
+2020-12-01T21:16:33.340Z INFO unittest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:16:33.340Z  DBG unittest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:16:33.340Z INFO pytest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:16:33.340Z  DBG pytest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:16:33.342Z INFO unittest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:16:33.342Z INFO pytest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:16:33.346Z  DBG unittest at 'ingaialab': Sending autorun event
+2020-12-01T21:16:33.346Z  DBG pytest at 'ingaialab': Sending autorun event
+2020-12-01T21:17:03.253Z INFO unittest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:17:03.253Z  DBG unittest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:17:03.253Z INFO pytest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:17:03.254Z  DBG pytest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:17:03.255Z INFO unittest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:17:03.256Z INFO pytest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:17:03.256Z  DBG unittest at 'ingaialab': Sending autorun event
+2020-12-01T21:17:03.256Z  DBG pytest at 'ingaialab': Sending autorun event
+2020-12-01T21:17:16.717Z INFO unittest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:17:16.717Z  DBG unittest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:17:16.717Z INFO pytest at 'ingaialab': Reading configuration for workspace ingaialab
+2020-12-01T21:17:16.717Z  DBG pytest at 'ingaialab': usingNewInterpreterStorage feature flag is 'true'
+2020-12-01T21:17:16.719Z INFO unittest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:17:16.719Z INFO pytest at 'ingaialab': Using auto-detected pythonPath /usr/bin/python3
+2020-12-01T21:17:16.720Z  DBG unittest at 'ingaialab': Sending autorun event
+2020-12-01T21:17:16.720Z  DBG pytest at 'ingaialab': Sending autorun event
