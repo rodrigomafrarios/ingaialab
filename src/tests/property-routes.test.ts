@@ -8,6 +8,6 @@ describe('Property Routes', () => {
 		.send({
 			squareMeters: 200
 		})
-		.expect(500)
+		.expect(200)
 	})
 })

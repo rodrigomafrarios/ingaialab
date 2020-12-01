@@ -11,22 +11,21 @@ import { PropertyDbRepository } from '@Infra/db/property-repository/property'
 // })
 
 describe('Property [DB] Repository', () => {
-	test('Should return the cost of property on sucess', async () => {
+	test('Should return the cost of property on success', async () => {
+		const sut = new PropertyDbRepository()
 		await MongoHelper.connect('mongodb://0.0.0.0:27017/jest')
 		const collection = MongoHelper.getCollection('prices')
 		await collection.insertOne({
 			value: 500
 		})
-
-		const sut = new PropertyDbRepository()
 		const property = {
 			squareMeters: 500
 		}
-		const price = await sut.calc({
+		const calc = await sut.calc({
 			squareMeters: 500
 		})
 
-		expect((price * property.squareMeters)).toEqual(property.squareMeters * 500)
+		expect(calc).toEqual(property.squareMeters * 500)
 		await collection.drop()
 		await MongoHelper.disconnect()
 	})
