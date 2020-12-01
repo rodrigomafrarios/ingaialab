@@ -19,7 +19,7 @@ export default {
 	}],
 	paths: {
 		'/property/calc': propertyPath,
-		'/square-meter/cost': squareMeterPath
+		'/property/square-meters': squareMeterPath
 	},
 	schemas: {
 		property: propertySchema,
